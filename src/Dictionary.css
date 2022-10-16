@@ -1,1 +1,28 @@
-.Dictionary {}
+.Dictionary h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.Dictionary section {
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 5px 10px 10px rgba(53, 52, 52, 0.4);
+    margin: 20px 0;
+    margin-bottom: 2px;
+}
+
+.Dictionary input {
+    width: 100%;
+    border-radius: 6px;
+    padding: 6px 4px;
+    color: rgb(65, 61, 61);
+    border: 1px solid #ddd;
+
+}
+
+.Dictionary .hint {
+    font-size: 11px;
+    margin-top: 5px;
+}

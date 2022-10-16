@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import MMConsulting from "./MMConsulting.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -7,11 +7,16 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={logo} className="App-logo img-fluid" alt="logo" />
+          <img
+            src={MMConsulting}
+            className="App-logo img-fluid rounded"
+            alt="logo"
+          />
+          <br />
           <h1>ENGLISH DICTIONARY</h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="Sunrise" />
         </main>
         <footer className="App-footer">
           <small>
@@ -22,7 +27,7 @@ export default function App() {
             >
               Open Source Code By
             </a>{" "}
-            Marta Coelho for SheCodes
+            Marta Coelho for SheCodes Workshop
           </small>
         </footer>
       </div>
